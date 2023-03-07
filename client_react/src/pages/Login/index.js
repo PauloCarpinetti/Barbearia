@@ -38,9 +38,9 @@ export default function Login(){
         
         <div className="login-container">
         <section className="form">
-            <img  alt="Erudio Logo"/>
+            <img  alt="Imagem"/>
             <form onSubmit={login}>
-                <h1>Access your Account</h1>
+                <h1>Acesse sua conta</h1>
                 <input
                     placeholder="Username"
                     value={username}

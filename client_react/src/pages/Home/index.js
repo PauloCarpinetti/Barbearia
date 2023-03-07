@@ -1,12 +1,16 @@
-import React, {useState} from "react";
-import { useNavigate } from "react-router-dom";
+import React from "react";
+import Navbar from "../../components/Navbar";
+
 import './styles.css';
+
 
 export default function Home(){
 
     return (
-        <div>
-            <h1>TesteHome</h1>
-        </div>
+    <div>           
+        <Navbar/>
+        <h1>Teste Home</h1>
+    </div>    
     )
+    
 }
